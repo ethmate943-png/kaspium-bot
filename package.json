@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot-backend",
+  "version": "1.0.0",
+  "description": "Telegram bot send message API backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "build": "true",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDevelopment1234/telegram-bot"
+  },
+  "author": "CodeDevelopment",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeDevelopment1234/telegram-bot/issues"
+  },
+  "homepage": "git+https://github.com/CodeDevelopment1234/telegram-bot#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "path": "^0.12.7",
+    "sync-request": "^6.1.0",
+    "ua-parser-js": "^2.0.4"
+  }
+}
