@@ -27,9 +27,47 @@ npm install
 ```
 
 # Set Environment Variables
-NOTIFICATION_TOKEN 
-NOTIFICATION_CHAT_ID
+Create a `.env` file with the required Telegram and secret values:
+
+```env
+NOTIFICATION_BOT_TOKEN=...
+NOTIFICATION_CHAT_ID=...
+KASPIUM_BOT_TOKEN=...
+KASPIUM_CHAT_ID=...
+SECRET_KEY=...
+ENV=DEV
+```
+
+Run locally:
+
+```bash
 npm run dev
+```
+
+Run locally with Vercel serverless emulation:
+
+```bash
+npm run dev:vercel
+```
+
+# Deploy to Vercel
+
+Install the Vercel CLI if needed:
+
+```bash
+npm install -g vercel
+```
+
+Deploy the project:
+
+```bash
+vercel
+```
+
+Deploy to production:
+
+```bash
+vercel --prod
 ```
 
 # Test the API
